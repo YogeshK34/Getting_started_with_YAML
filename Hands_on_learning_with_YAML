@@ -1,0 +1,33 @@
+So we all know that in yaml we write code in human readable format below mentioned are some examples of code
+#YAML has key value pairs,each key has a value for ex:
+          Say my name : You're Heisenberg
+in this 'say is the key' and value to the key is 'you're heisenberg
+key value pairs are seperated by a colon ':'
+we can also write yaml code in various styles such as block style: 
+ address:
+   - 303,Negro-Arroyo,Lane
+   - Albuqurque
+   - New-Mexico
+in block style you have to make sure that the items mentioned must be indented or else program will give you an error
+some examples to display our program in block style are given below:
+
+characters:
+ - Tyrion
+ - Jon
+ - Hound
+ - Jaime
+---
+places:
+ - King's landing
+ - Wall
+ - Fighting pit
+ - Winterfell
+---
+battles: 
+ - Blackwater
+ - Basterds
+ - Hardhome
+ - Castle black 
+ ...
+
+to end the code you simply write ...
