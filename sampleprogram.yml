@@ -2,3 +2,15 @@ character: "Walter White"
 alias: "Heisenberg"
 occupation: "Methlymine lord/Chemistry teacher"
 address: "308-Negro Arroyo Lane,Albuqurque,New-Mexico"
+
+#So in above file we can see that character is a key data item & "WAlter White" is a value data item seperated by colon
+#As is the case with the other data items 
+#in yaml we use " # " to display a comment abnd there are no multiline comments
+#the above mentioned is a very basic program and when we convert this yaml file into .json fil.e it looks something like this:
+
+{
+  "character": "Walter White",
+  "alias": "Heisenberg",
+  "occupation": "Methlymine lord/Chemistry teacher",
+  "address": "308-Negro Arroyo Lane,Albuqurque,New-Mexico"
+}
